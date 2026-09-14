@@ -30,9 +30,19 @@
 # print (a ** b)
 
 
-lapar = "makan"
-tidak_lapar = "tidak makan"
-if tidak_lapar:
-    print(f"{lapar}")
-else:
-    print(f"{tidak_lapar}")
+# lapar = "makan"
+# tidak_lapar = "tidak makan"
+# if tidak_lapar:
+#     print(f"{lapar}")
+# else:
+#     print(f"{tidak_lapar}")
+
+
+# jumlah_transaksi = "seratus"
+# print (type(jumlah_transaksi)) 
+
+jumlah_produk = 50
+harga_per_produk = 1_000_000;
+
+total_penjualan = jumlah_produk * harga_per_produk
+print (f"Total harga penjualan adalah : {total_penjualan}")
