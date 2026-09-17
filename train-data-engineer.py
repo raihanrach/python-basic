@@ -41,8 +41,21 @@
 # jumlah_transaksi = "seratus"
 # print (type(jumlah_transaksi)) 
 
-jumlah_produk = 50
-harga_per_produk = 1_000_000;
+# jumlah_produk = 50
+# harga_per_produk = 1_000_000;
 
-total_penjualan = jumlah_produk * harga_per_produk
-print (f"Total harga penjualan adalah : {total_penjualan}")
+# total_penjualan = jumlah_produk * harga_per_produk
+# print (f"Total harga penjualan adalah : {total_penjualan}")
+
+
+nama  = "Raihan Rachmadanii" 
+umur = 26 
+alamat = None
+desc = "Alamat saya belum diketahui"
+tempat = "Jl. Perintins no. 19"
+
+# print (f"Harga produk adalah = {harga * jumlah}")
+if alamat is not None: 
+    print (f"{desc}")
+else :
+    print (f"{tempat}")
